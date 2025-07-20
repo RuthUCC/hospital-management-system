@@ -1,0 +1,89 @@
+
+README FILE - Hospital Management System (ITT103) - Summer 2025
+
+Author: Ruth-Ann Burry
+Date Created: July 20, 2025
+Course: ITT103 – Programming Techniques
+GitHub Public URL to Code: https://github.com/RuthUCC/hospital-management-system
+
+----------------------------------------------
+PROGRAM OVERVIEW
+----------------------------------------------
+This is a console-based Hospital Management System built using Python.
+The system allows users to manage patient and doctor data, book and cancel appointments, and generate bills.
+
+The program demonstrates the use of object-oriented programming (OOP), error handling, and input validation.
+
+----------------------------------------------
+PROGRAM FUNCTIONALITY
+----------------------------------------------
+
+✔ Register a New Patient:
+   - Collects name, age, and gender.
+   - Automatically generates a unique patient ID.
+
+✔ Add a New Doctor:
+   - Collects name, age, gender, specialty, and available schedule.
+   - Schedule must include date and time (e.g. "2025-07-18 10:00").
+   - Automatically generates a unique doctor ID.
+
+✔ View Patient Profile:
+   - Enter the patient ID to view their profile.
+
+✔ View Doctor Schedule:
+   - Enter the doctor ID to see their specialty and availability.
+
+✔ Book an Appointment:
+   - Requires patient ID, doctor ID, date, and time.
+   - Checks for scheduling conflicts and doctor availability.
+
+✔ Cancel an Appointment:
+   - Requires the appointment ID.
+   - Updates the status and removes the time slot.
+
+✔ Generate a Bill:
+   - Displays patient and appointment details.
+   - Calculates a fixed consultation fee plus optional service      fees.
+
+✔ Input Validation:
+   - Ensures age is a positive number.
+   - Name must contain only letters.
+   - Gender must be Male, Female, or Other.
+   - Date must follow YYYY-MM-DD format.
+   - Time must follow 24-hour format (HH:MM).
+
+----------------------------------------------
+HOW TO RUN THE PROGRAM
+----------------------------------------------
+
+1. Make sure Python 3 is installed on your computer.
+2. Save the program in a .py file (e.g., hospital_system.py).
+3. Open the terminal or command prompt on your computer.
+4. Navigate to the folder where your file is saved.
+5. Copy file path for .py file
+6. To run the program, paste the file path
+   into the commandline prompt then press enter.
+7. Use the menu to interact with the system.
+
+----------------------------------------------
+MODIFICATIONS REQUIRED
+----------------------------------------------
+- None. The system is fully functional from the console.
+
+Optional improvements:
+- Add file storage for saving data.
+- Add a Graphical User Interface (GUI) using tkinter or PyQt.
+- Send confirmation emails when booking appointments, cancelling    appointments, etc. (advanced).
+
+----------------------------------------------
+ASSUMPTIONS & LIMITATIONS
+----------------------------------------------
+- Appointments are scheduled manually; no automatic scheduling or   conflict resolution beyond the current checks.
+- Data is not saved between sessions.
+- Only text-based interface which is not suitable for multi-user    or networked environments.
+
+----------------------------------------------
+THANK YOU!
+----------------------------------------------
+This project demonstrates how basic Python skills can be applied to build real-world applications using OOP and input validation.
+
